@@ -1,0 +1,69 @@
+/* Для экранов с шириной до 1140px */
+@media (max-width: 1140px) {
+    .card {
+        width: calc(50%);
+    /*  width:  */
+}
+}
+/* Для экранов с шириной до 760px */
+@media (max-width: 760px) {
+    .header {
+        height: 60vh;
+    }
+    .header-title {
+        font-size: 32px;
+    }
+    .header-subtitle {
+        font-size: 14px;
+    }
+    .projects {
+        padding-top: 40px;
+        padding-bottom: 70px;
+    }
+    .projects-header {
+        font-size: 30px;
+        padding-bottom: 30px;
+    }
+    .projects-card-wrapper {
+        justify-content: center;
+    }
+    .card {
+        /* width 530 */
+        max-width: 530px;
+        width: 100%;
+        padding: 15px;
+    }
+    .card:nth-last-child(2) {
+        margin-bottom: 30px;
+    }
+    .card-img {
+        margin-bottom: 10px;
+    }
+    .card-title {
+        font-size: 19px;
+    }
+    .podval {
+        align-items: center;
+        text-align: center;
+    }
+    /* title 2 */
+    .project {
+        padding: 40px 0 70px;
+    }
+    .project-title {
+        font-size: 34px;
+        margin-bottom: 30px;
+    }
+    .title1 {
+        font-size: 25px;
+    }
+    .title2 {
+        font-size: 25px;
+    }
+    .title3 {
+        font-size: 25px;
+    }
+
+
+
+}
